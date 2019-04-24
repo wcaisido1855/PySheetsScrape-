@@ -8,7 +8,7 @@ from csv import writer
 #     csv_writer.writerow(headers)
 
 
-response = requests.get('http://www.romriellinvest.com/property-listings/')
+response = requests.get('examplewebsite.com')
 
 page_html = BeautifulSoup(response.text,'html.parser')
 
