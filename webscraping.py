@@ -1,4 +1,4 @@
-import requests
+eimport requests
 from bs4 import BeautifulSoup
 from csv import writer
 
@@ -8,7 +8,7 @@ from csv import writer
 #     csv_writer.writerow(headers)
 
 
-response = requests.get('http://www.romriellinvest.com/listings/up-and-coming-neighborhood/')
+response = requests.get('examplewebsite.com')
 
 page_html = BeautifulSoup(response.text,'html.parser')
 
